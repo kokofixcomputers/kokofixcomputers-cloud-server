@@ -12,7 +12,7 @@ module.exports = {
   trustProxy: process.env.TRUST_PROXY === 'true',
 
   // removes IP addresses from logs
-  anonymizeAddresses: process.env.ANONYMIZE_ADDRESSES === 'true',
+  anonymizeAddresses: process.env.ANONYMIZE_ADDRESSES === 'false',
 
   // anonymize generated usernames like "player123456"
   anonymizeGeneratedUsernames: true,
